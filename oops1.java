@@ -1,4 +1,3 @@
-package OOPS;
 
 public class OOPS {
     public static void main(String args[]) {
@@ -16,6 +15,7 @@ public class OOPS {
         myAcc.username="AbhiGupta";
         myAcc.password="abjal"; // error in this line
         myAcc.setPassword("abcdefghi");
+        System.out.println(myAcc.password); //error in this line because it is private
     }
 }
 class BankAccount {
